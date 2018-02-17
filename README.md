@@ -14,10 +14,10 @@ Move into the subfolder
 Clone the shared code as a submodule  
 `git submodule add https://github.com/Bennett-Lynch/UnityUtil.git`  
 
-Move into the Assets folder
+Move into the Assets folder  
 `cd ../Assets`  
 
-Create a symbolic link in the Assets folder pointing to our submodule  
+Create a symbolic link in the Assets folder pointing to our submodule...  
 Mac:  
 `ln -s ../Submodules/UnityUtil UnityUtil`  
 Windows (in a separate command prompt run as admin):  
