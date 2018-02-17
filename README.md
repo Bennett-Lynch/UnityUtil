@@ -2,7 +2,7 @@
 
 Example of how to use this repo as a submodule in a Unity project
 
-Open up the root folder of our Unity project  
+Open up the root folder of our Unity project (which already has an existing .git)  
 ` cd /d/UnityProjects/ProjectName/`  
 
 Make a folder to organize our shared code submodules  
