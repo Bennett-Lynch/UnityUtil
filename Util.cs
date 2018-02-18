@@ -2,8 +2,9 @@
 using static UnityEngine.Mathf;
 using static UnityEngine.Time;
 using static UnityEngine.Vector3;
+// ReSharper disable MemberCanBePrivate.Global
 
-public class Util {
+public static class Util {
     /// <summary> Used to instantiate objects off-screen (before they can be repositioned). </summary>
     public static Vector2 OffScreen = new Vector2(-Screen.width, -Screen.height);
     
